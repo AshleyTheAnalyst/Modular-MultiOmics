@@ -1,3 +1,6 @@
+library(yaml)
+params <- yaml::read_yaml("config/params.yaml")
+
 latent_dims <- c(3,4,5, 30, 60, 90)
 
 future::plan(multisession, workers = 11) # parallel but without console messages
