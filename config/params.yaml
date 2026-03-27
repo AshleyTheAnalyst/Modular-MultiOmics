@@ -1,0 +1,18 @@
+# Model architecture
+latent_dim: 16
+hidden1_units: 64
+hidden2_units: 32
+beta: 0.0001
+
+# Training
+batch_size: 32
+epochs: 200
+learning_rate: 0.001
+
+# Data
+train_prop: 0.7
+seed: 1234
+
+# Activation
+encoder_activation: "leakyrelu"
+decoder_activation: "linear"
