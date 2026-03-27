@@ -18,7 +18,7 @@ This repository provides a **modular, end-to-end computational pipeline** for in
 - **Comprehensive evaluation** including reconstruction quality, clustering validation, and latent space visualization
 - **Reproducible training** with repeated runs and automated hyperparameter tuning
 
-The pipeline was developed for analyzing Nanostring-based immune profiling data from population cohorts but is easily adaptable to other high-dimensional molecular datasets (transcriptomics, proteomics, etc.).
+The pipeline was developed for analyzing large-scale clinical data from cohorts but is easily adaptable to other high-dimensional molecular datasets (transcriptomics, proteomics, etc.).
 
 ---
 
@@ -150,7 +150,7 @@ Kernel density estimation comparing original vs. VAE-imputed distributions. The 
 If you use this framework in your research, please cite:
 
 Li, A. (2026). A modular VAE framework for multi-omics integration and missing value imputation.
-GitHub repository: https://github.com/yourusername/VAE-MultiOmics-Integration
+GitHub repository: https://github.com/AshleyTheAnalyst/Modular-MultiOmics
 
 ---
 ## 📄 License
