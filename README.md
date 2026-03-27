@@ -130,19 +130,19 @@ recon_plot <- plot_reconstruction_scatter(
 ---
 ## 📊 Example Results
 Loss Curves
-[Insert loss curve figure here]
+![Training and validation loss curves](images/loss_curve.png)
 Loss curves showing training and validation loss across epochs. Validation loss (orange) closely tracks training loss (blue), indicating minimal overfitting.
 
 Latent Space Visualization
-[Insert UMAP figure here]
-UMAP projection of the learned latent space, colored by experimental condition. The model captures distinct biological states without overfitting to technical factors.
+![Latent space ridge plot](images/ridge.png)
+Ridge plots showing per-dimension distributions of latent variables, colored by experimental condition. Useful for assessing separation or bias between groups within individual latent dimensions.
 
 Reconstruction Quality
-[Insert scatter plot figure here]
+![Reconstruction scatter plot](images/recon_scatter.png)
 Original vs. reconstructed expression values for key genes. High Spearman correlation demonstrates faithful reconstruction.
 
 Missing Value Imputation
-[Insert KDE figure here]
+![Imputation validation plot](images/KDE_histogram.png)
 Kernel density estimation comparing original vs. VAE-imputed distributions. The imputed distribution closely matches the original, validating the imputation approach.
 
 ---
